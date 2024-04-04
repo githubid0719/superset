@@ -28,7 +28,7 @@ jobs:
     steps:
       - run: exit 0
 #  ------------------------------------
-#  DE-COMMENT POST MERGING
+#  DE-COMMENT POST MERGING https://github.com/apache/superset/pull/27906
 #  ------------------------------------
 #
 #  pre-commit:
@@ -64,7 +64,8 @@ jobs:
 #    steps:
 #      - run: exit 0
 ## ------------------------------------------------------
-## TO BE DEPRECATED
+## TO BE DEPRECATED after https://github.com/apache/superset/pull/27906
+## is merged
 ## These no-ops were used to deprecate/renaming checks
 ## and can be safely delete if seen on `master`
 ## ------------------------------------------------------
