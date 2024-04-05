@@ -30,6 +30,7 @@ jobs:
         with:
           persist-credentials: false
           submodules: recursive
+          lfs: false
       - name: Check if python changes are present
         id: check
         env:
@@ -58,6 +59,7 @@ jobs:
         with:
           persist-credentials: false
           submodules: recursive
+          lfs: false
       - name: Setup Python
         uses: ./.github/actions/setup-backend/
         with:
